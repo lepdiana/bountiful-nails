@@ -1,13 +1,12 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-import { PromiseProvider } from 'mongoose';
 
 
-const CrudContext = React.createContext()
+export const CrudContext = React.createContext()
 
-function CrudProvider() {
+function CrudProvider(props) {
     const initState = {
-        services=[]
+        services: []
     }
 
     const [serviceState, setServiceState] = useState(initState)
