@@ -18,7 +18,7 @@ mongoose.connect('mongodb://localhost:27017/bountifulNailsdb',
     }
 )
 
-app.use('/services', require('./routes/serviceRouter.js'))
+app.use('/api/services', require('./routes/serviceRouter.js'))
 
 app.use((err, req, res, next) => {
     console.error(err)
