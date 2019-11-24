@@ -13,6 +13,7 @@ function Services() {
     const mappedServices = services.map(service => 
                                             <div>
                                                 <h1>{service.title}</h1>
+                                                <p>${service.amount}</p>
                                             </div>
                                         )
 
