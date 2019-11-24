@@ -4,6 +4,7 @@ import Home from './Components/Home.js'
 import Navbar from './Components/Navbar.js'
 import About from './Components/About.js'
 import Services from './Components/Services.js'
+import ContactUs from './Components/ContactUs.js';
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
         <Route exact path='/' component={Home}/>
         <Route path='/about' component={About}/>
         <Route path='/services' component={Services}/>
+        <Route path='/contactus' component={ContactUs}/>
       </Switch>
     </div>
   );
