@@ -6,10 +6,12 @@ import About from './Components/About.js'
 import Services from './Components/Services.js'
 import ContactUs from './Components/ContactUs.js';
 
+import './Styles/app.css'
+
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="page">
       <Navbar />
       <Switch>
         <Route exact path='/' component={Home}/>
