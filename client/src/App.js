@@ -11,7 +11,7 @@ import './Styles/app.css'
 
 const App = () => {
   return (
-    <div className="page">
+    <div>
       <Navbar />
       <Switch>
         <Route exact path='/' component={Home}/>
