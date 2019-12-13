@@ -6,7 +6,7 @@ import '../Styles/navbar.css'
 const Navbar = () => {
     return(
         <div className="navbar">
-            <h1 id="navbarTitle">Bountiful Nails</h1>
+            <a href="/" id="navbarTitle">Bountiful Nails</a>
             <Link to='/' className='link'>Home</Link>
             <Link to='/about' className='link'>About</Link>
             <Link to='/services' className='link'>Services</Link>

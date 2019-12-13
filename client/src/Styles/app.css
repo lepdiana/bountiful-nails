@@ -7,3 +7,17 @@
 body {
     background-color: #0f0f0f;
 }
+ 
+h1 {
+    text-transform: uppercase;
+    color: #D6A062;
+
+}
+
+h3 {
+    color: #a8a8a8;
+}
+
+p {
+    color: #D3D3D3;
+}
