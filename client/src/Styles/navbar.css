@@ -1,5 +1,5 @@
 .navbar {
-    /* position: absolute; */
+    position: fixed;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -7,7 +7,7 @@
     width: 100vw;
     height: 70px;
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 #navbarTitle {
